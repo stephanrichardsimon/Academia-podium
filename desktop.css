@@ -1,0 +1,94 @@
+@media screen and  (min-width: 1024px){
+        body {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #ffffff 0%,#929292 100%); 
+        }
+        header{
+            background-color: rgba(228, 225, 225, 0.95);
+            width: 100%;
+            margin-bottom: 3%;
+        }
+        header img{
+            width: 150px;
+
+        }
+        li{
+            margin-bottom: 1%;
+            font-weight: 300;
+            padding: 2%;
+            font-style: italic;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        .menuRodape li{
+            background-color: #17be49;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline;
+            font-size: 11px;
+    
+        }
+        .corpo{
+            background-color: #58488F;
+            color: white;
+            border-radius: 15px;
+            margin: 1%;
+            padding: 2%;
+            text-align: center;
+        }
+        .corpos{
+            flex-direction: inherit;
+            display: flex;
+        }
+        .corpo li{
+            text-decoration: underline;
+        }
+        .corpo img{
+            width: 100%;
+        }
+        .foot{
+            margin-top: 3%;
+        }
+        footer{
+            background-color: #58488F;
+            color: white;
+        }
+        .modalidades{
+            text-align: left;
+        }
+        .horarios{
+            background-color: #58488F;
+            color: white;
+            padding: 10%;
+        }
+        .horarios img{
+            width: 60px;
+            margin: 21px;
+        }
+        .fotos div{
+            flex-direction: inherit;
+
+        }
+        .fotos img{
+            width: 40%;
+            margin: 5%;
+            border-radius: 10%;
+        }
+        .mural{
+            margin-top: 3%;
+            margin-bottom: -2%;
+            font-family: 'Lobster', cursive;
+            font-size: 30pt;
+            color: #58488F;
+        }
+        .proxPage{
+            font-family: 'Lobster', cursive;
+            color:#58488F;
+            font-size: 30pt;
+        }
+    }

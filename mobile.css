@@ -1,0 +1,106 @@
+@media screen and  (max-width: 767px){
+    body {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        background: linear-gradient(to bottom, #ffffff 0%,#929292 100%); 
+    }
+    header{
+        margin-bottom: 15%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(228, 225, 225, 0.1);
+        width: 100%;
+    }
+
+    header img{
+        width: 150px;
+        padding-left: 30%;
+        padding-right: 30%;
+        margin-bottom: -2%;
+        background-color: rgba(206, 204, 204, 0.95);
+    }
+    li{
+        margin-bottom: 1%;
+        font-weight: 300;
+        padding: 2%;
+        font-style: italic;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    .menuRodape{
+        background-color: rgba(206, 204, 204, 0.95);
+    }
+    .menuRodape li{
+        background-color: #17be49;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        font-size: 11px;
+
+    }
+    .corpo{
+        background-color: #58488F;
+        color: white;
+        border-radius: 15px;
+        margin: 5%;
+        padding: 2%;
+        text-align: center;
+    }
+    .corpo li{
+        text-decoration: underline;
+    }
+    .corpo img{
+        width: 50%;
+    }
+    .foot{
+        margin-top: 10%;
+    }
+    footer{
+        background-color: #58488F;
+        color: white;
+    }
+    .modalidades{
+        text-align: left;
+    }
+    .horarios{
+        background-color: #58488F;
+        color: white;
+        padding: 10%;
+    }
+    .horarios img{
+        width: 60px;
+        margin: 21px;
+    }
+    .fotos{
+        display: inline-grid;
+
+    }
+    .fotos img{
+        width: 90%;
+        margin: 5%;
+        border-radius: 10%;
+    }
+    section{
+        margin-top:45%;
+    }
+    section img{
+        width: 100%;
+    }
+    .mural{
+        margin-top:45%;
+        margin-bottom: -2%;
+        font-family: 'Lobster', cursive;
+        color: #58488F;
+    }
+    .proxPage{
+        margin-bottom: -2%;
+        font-family: 'Lobster', cursive;
+        color: #58488F;
+        font-size: 18pt;
+    }
+}
